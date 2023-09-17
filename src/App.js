@@ -175,7 +175,7 @@ function App() {
       <h1>Ekreb</h1>
       <p id="score">Score: {plays.current}</p>
       
-      <p>Unscramble and type in the word below then press Enter!</p>
+      <p>Unscramble and type in the word below then press Enter! A lower score is better.</p>
       <h2 id = "scrambled"><b>{scrambledWord}</b></h2>  
       <div id="board"></div>
       <MakeBoard props={{length: currentWordRef.current.length, rows: 1}}/>
