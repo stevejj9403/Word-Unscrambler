@@ -1,0 +1,45 @@
+.modal {
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    width: 20%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .hint-modal {
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+
+  #correct {
+    color: green;
+  }
+
+  #wrong {
+    border-radius: 10px;
+    text-align: center;
+    color: red;
+  }
+

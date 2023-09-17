@@ -4,17 +4,6 @@
   flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -37,4 +26,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#score {
+  display: inline-flex;
+  padding: 5px;
+  border: 2px solid #584B53;
+  background-color: #D6E3F8;
+  border-radius: 12px;
+
+  position: fixed;
+  top: 10%;
+  right: 25%;
+}
+
+.letter-box {
+  
+  box-sizing: border-box;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+
+}
+
+#giveup {
+  background-color: #f1356d;
+  color: black;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+#scrambled {
+  margin-top: 1ppx;
+}
+
+#hint {
+  background-color: #584B53;
+  color: white;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+
+#answer {
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+  border-radius: 8px;
 }

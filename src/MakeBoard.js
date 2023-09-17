@@ -4,18 +4,6 @@ import './MakeBoard.css'
 function MakeBoard(props) {
   const [numRows, setNumRows] = useState(props.props.rows);
 
-  const addRow = () => {
-    setNumRows(numRows + 1);
-    console.log(numRows);
-  };
-
-// let box = document.createElement("div");
-// box.className = "letter-row"
-// for(let i = 0; i<props.wordLength; i++) {
-//     let boxChild = document.createElement("div");
-//     box.appendChild(boxChild);
-// }
-
   return (
     <div id="game-board">
       {Array.from({ length: numRows }, (_, rowIndex) => (
@@ -25,7 +13,6 @@ function MakeBoard(props) {
           ))}
         </div>
       ))}
-      <button onClick={addRow}>Add Row</button>
     </div>
   );
 }
