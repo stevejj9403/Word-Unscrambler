@@ -42,6 +42,7 @@ function App() {
             })
             .catch((error) => 
               console.error('Error fetching data', error));
+              definitionRef.current = "Word definition not defined in API."
         })
         .catch((error) => console.error('Error fetching data:', error));
   }

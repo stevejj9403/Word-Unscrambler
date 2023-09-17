@@ -15,7 +15,7 @@ const HintModal = ({ isOpen, onClose, hint, ansBool, ans}) => {
                     {ansBool ? (
                         <p>{ans}</p>
                     ) : (
-                        <p>{hint}</p>
+                        <p><b>Definition: </b>{hint}</p>
                     )}
                 </div>
             </div>
